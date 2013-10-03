@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
+
 <registry>
- <records interface="bda.controlpanel.interfaces.IBdaControlpanelSettings" />
-      <value key="default_espen">X</value>
+ <records interface="bda.controlpanel.interfaces.IShopExtraSettings">
+      <value key="block_fields"></value>
+ </records>
+ <records interface="bda.controlpanel.interfaces.IBdaControlpanelSettings">
+      <value key="block_fields"></value>
+ </records>
 </registry>
-
-
+ 

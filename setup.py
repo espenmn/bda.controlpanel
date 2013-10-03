@@ -26,6 +26,7 @@ setup(name='bda.controlpanel',
       install_requires=[
           'setuptools',
            'plone.app.registry',
+           'bda.plone.shop',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
