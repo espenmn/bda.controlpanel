@@ -13,6 +13,7 @@ from zope.interface import alsoProvides
 from plone.directives import form
 from bda.plone.shop.interfaces import IShopSettingsProvider
 
+#from plone.registry.interfaces import IRegistry
 
 class IBdaControlpanelSettings(Interface):
     """ An extra controlpanel for bda shop
@@ -46,3 +47,4 @@ class IShopExtraSettings(form.Schema):
 
 
 alsoProvides(IShopExtraSettings, IShopSettingsProvider)
+
