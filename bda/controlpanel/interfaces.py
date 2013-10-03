@@ -15,7 +15,7 @@ from bda.plone.shop.interfaces import IShopSettingsProvider
 
 
 class IBdaControlpanelSettings(Interface):
-    """ Controlpanel for bda shopviews
+    """ An extra controlpanel for bda shop
     """
 
     block_fields = schema.TextLine(title=_(u"Rich text fields to block"),
